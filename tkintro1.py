@@ -31,9 +31,9 @@ The third manage is place. Place is great for doing either absolute positioning
 
 While you cannot mix grid and pack within the same
 container (a container is typically a frame),
-you can use both grid and pack within a single application. T
-his is very, very common since each has strengths and weaknesses.
-I use both on a regular basis.
+you can use both grid and pack within a single application.
+This is very, very common since each has strengths and weaknesses.
+
 '''
 from tkinter import*
 
