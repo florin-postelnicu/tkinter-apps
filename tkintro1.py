@@ -31,9 +31,9 @@ The third manage is place. Place is great for doing either absolute positioning
 
 While you cannot mix grid and pack within the same
 container (a container is typically a frame),
-you can use both grid and pack within a single application.
-This is very, very common since each has strengths and weaknesses.
-
+you can use both grid and pack within a single application. T
+his is very, very common since each has strengths and weaknesses.
+I use both on a regular basis.
 '''
 from tkinter import*
 
@@ -50,9 +50,22 @@ app.grid()
 
 # create a label widget in the frame
 
-lbl = Label(app, text = " I'm just a simple label! Please, be kind to Me", font=('Comic Sans MS', 30," bold italic"), bg='Green', fg='blue')
-lbl.grid()
+lbl1 = Label(app, text = " I'm just a simple label! Please, be kind to Me", font=('Comic Sans MS', 30," bold italic"), bg='Green', fg='blue')
+lbl1.grid()
+
+lbl2 = Label(app, text = " I'm just a simple label! Please, be kind to Me", font=('Comic Sans MS', 20," bold italic"), bg='Green', fg='yellow')
+lbl2.grid()
+
+lbl3 = Label(app, text = " I'm just a simple label! Please, be kind to Me", font=('Comic Sans MS', 15," bold italic"), bg='Green', fg='red')
+lbl3.grid()
+
+lbl4 = Label(app, text = " I'm just a simple label! Please, be kind to Me", font=('Comic Sans MS', 12," bold italic"), bg='Green', fg='magenta')
+lbl4.grid()
+
+lbl5 = Label(app, text = " I'm just a simple label! Please, be kind to Me", font=('Comic Sans MS', 10," bold italic"), bg='Green', fg='Fuchsia')
+lbl5.grid()
 # lbl.pack()
+
 
 # kick off the window's event
 root.mainloop()
